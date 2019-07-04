@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: /blog/
+---
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>News</h1>
+        </div>
+    </div>
+    <div class="row">
+        {% for post in paginator.posts %}
+        <div class="col-md-4">
+            {% if post.image %}
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                <img src="{{ site.baseurl }}{{ post.image }}" style='max-width: 320px' width=320>
+                </a>
+            {% endif %}
+            <br/>
+            <br/>
+            <a href="{{ site.baseurl }}{{ post.url }}"><h6>{{ post.title }}</h6></a>
+            <p>
+            {{ post.excerpt }} <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+            </p>
+        </div>
+        {% endfor %}
+    </div>
+</div>

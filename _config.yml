@@ -1,0 +1,23 @@
+title: Center for Social Computing & Information Society
+description: A ICT4D Society in Wayanad, Kerala
+author: c4sc
+url: http://www.openc4s.org
+excerpt_separator: <!--more-->
+#baseurl: /beta
+paginate: 10
+paginate_path: /page/:num/
+
+exclude: [
+    'Makefile',
+    'Gemfile',
+    'Gemfile.lock',
+    'README.md'
+]
+
+sass:
+    sass_dir: assets/css
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate

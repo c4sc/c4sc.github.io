@@ -1,0 +1,46 @@
+---
+---
+
+@import 'bootstrap/bootstrap';
+/*
+* Color scheme: #A6374B, #F29BAB, #F2BDC7, #A63352, #F2E4E8
+*/
+
+.nav-item {
+    padding-right: 30px;
+}
+
+body {
+    min-height: 100vh;
+}
+
+footer {
+    padding-top: 30px;
+    background-color: #ac3549;
+    color: white;
+    bottom: 0;
+}
+
+.one-liner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: grey;
+    font-size: 32px;
+    text-align: center;
+}
+
+.highlight1 {
+    margin-top: 30px;
+    background-color: #F29BAB;
+}
+
+.highlight2 {
+    margin-top: 30px;
+    background-color: #F2BDC7;
+}
+
+.highlight-points {
+    background-color: white;
+    color: black;
+    margin-top: 40px;
+}
